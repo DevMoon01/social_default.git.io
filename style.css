@@ -1123,4 +1123,25 @@ img {
     .info_user .left p {
         font-size: 14px;
     }
+
+    .wrapping_page .right_card .card_post .action_control .box a {
+        font-size: 12px !important;
+        padding: 2px;
+    }
+
+    .wrapping_page .right_card .card_post .action_control .box i {
+        margin-right: 4px;
+    }
+
+    .card_post {
+        padding: 4px !important;
+    }
+
+    .wrapping_page .right_card .card_post .action_control .box {
+        padding: 2px;
+    }
+
+    .main {
+        width: 98vw;
+    }
 }
