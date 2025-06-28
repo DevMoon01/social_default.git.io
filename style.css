@@ -1144,4 +1144,10 @@ img {
     .main {
         width: 98vw;
     }
+
+    .profile__menu {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+}
 }
