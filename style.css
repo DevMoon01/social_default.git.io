@@ -1144,10 +1144,100 @@ img {
     .main {
         width: 98vw;
     }
-
-    .profile__menu {
-    position: fixed;
-    top: 25px;
-    right: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.followers {
+    margin-top: 7rem;
+}
+
+.followers .follow {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.followers .follow .box_follow {
+    width: 45%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #dadada2a;
+}
+
+.followers .follow .box_follow:hover {
+    background-color: #f1f1f1;
+}
+
+.followers .follow .box_follow .left .follow_img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.followers .follow .box_follow .left .follow_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.followers .follow .box_follow .left .follow_img img:hover {
+    transform: scale(1.025);
+}
+
+.followers .follow .box_follow .left {
+    display: flex;
+    align-items: center;
+}
+
+.followers .follow .box_follow .left .text_follow {
+    margin-left: 10px;
+    height: 100%;
+}
+
+.followers .follow .box_follow .left .text_follow h3 {
+    color: #1a1c29;
+}
+
+.followers .follow .box_follow .left .text_follow p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #7d8193;
+}
+
+.followers .follow .box_follow .right span i {
+    font-size: 20px;
+    color: #1a1c29;
+    cursor: pointer;
+}
+
+.followers .follow .box_follow .right span {
+    cursor: pointer;
 }
