@@ -1241,3 +1241,187 @@ img {
 .followers .follow .box_follow .right span {
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.dashboard h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #1a1c29;
+    margin-bottom: 5px;
+}
+
+.dashboard h1 span {
+    font-weight: 300;
+}
+
+.dashboard .box_dash {
+    margin-top: 4rem;
+}
+
+.dashboard .tab {
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.dashboard .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.dashboard .tab button:hover {
+    background-color: #ddd;
+}
+
+.dashboard .tab button.active {
+    background-color: #ccc;
+}
+
+.dashboard .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    margin-top: 10px;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.dashboard .box_dash .tabcontent #radarChart {
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p h3 {
+    color: #1a1c29;
+    margin-bottom: 10px;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p p {
+    margin-top: 4px;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p .ok {
+    color: #1db44a;
+    font-weight: 700;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p .medium {
+    color: #c9a143;
+    font-weight: 700;
+}
+
+.dashboard .box_dash .tabcontent .info_account_p .suspended {
+    color: #c03838;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .dashboard .box_dash .tabcontent #radarChart {
+        width: 450px;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    .dashboard .box_dash .tabcontent #radarChart {
+        width: 280px;
+        margin: auto;
+        display: block;
+    }
+
+    .dashboard {
+        margin: 10px;
+        margin-left: 0px !important;
+        margin-top: 3.5rem !important;
+    }
+
+    .dashboard h1 {
+        font-size: 18px;
+    }
+
+    .dashboard p {
+        font-size: 13px;
+    }
+
+    .dashboard .box_dash .tab {
+        display: flex;
+        padding: 2px !important; 
+    }
+
+    .dashboard .box_dash .tab .tablinks {
+        font-size: 12px !important;
+        margin: 3px !important;
+    }
+}
