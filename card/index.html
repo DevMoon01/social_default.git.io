@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Name</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+
+
+    <!-- Link esterno per il collegamento su Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="profile__menu">
+        <div class="action">
+            <img src="../images/bg-img2.jpg">
+        </div>
+        <div class="menu">
+            <div class="profile">
+                <img src="../images/bg-img2.jpg">
+                <div class="info">
+                    <h2>Mark Park</h2>
+                    <p>@temp</p>
+                </div>
+            </div>
+            <a href="" class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back to Home
+            </a>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <a href="#">Edit Profile</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">App Setting</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Account</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-question"></i>
+                    <a href="#">Help</a>
+                </li>
+                <li class="logout">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <a href="#">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <main class="main">
+
+
+
+
+
+        <div class="header">
+            <header class="header_image">
+                <img src="../images/bg-img2.jpg" alt="">
+            </header>
+
+            <div class="img__container">
+                <img src="../images/bg-img2.jpg" alt="Anna Smith" />
+                <span></span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="info_user">
+            <div class="left">
+                <h2>Mark Park</h2>
+                <p>@temp</p>
+            </div>
+
+
+
+            <div class="right">
+
+                <!-- Follow Me
+                <a href="#" class="btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Follow Me
+                </a>
+                -->
+
+
+                <!-- Unfriend
+                <a href="#" class="btn unfriend">
+                    <i class="fa-solid fa-xmark"></i>
+                    Unfriend
+                </a>
+                -->
+
+
+                <a href="#" class="btn not_allow">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    You can't follow
+                </a>
+
+                <div class="box_report">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="card_contain">
+            <div class="dashboard">
+                <h1>Your - <span>Card</span></h1>
+                <p>You can manage your credit card. This card does not manage real money <br> but a site currency where
+                    coins
+                    are redeemable through missions
+                </p>
+
+
+                <div class="box_dash">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'your_card')" id="defaultOpen">Your
+                            Card</button>
+                        <button class="tablinks" onclick="openCity(event, 'transfer_money')">Transfer Money</button>
+                        <button class="tablinks" style="cursor: not-allowed;">Work in Progress</button>
+                    </div>
+
+                    <div id="your_card" class="tabcontent">
+                        <h2>Your Card</h2>
+                        <p>You can manage your account</p>
+                        <br>
+
+
+                        <div class="card_pay">
+                            <div class="contains_card">
+                                <div class="n_card space">
+                                    <small>Number card</small>
+                                    <p>0492-8473-2848-2741</p>
+                                </div>
+                                <div class="n_card space">
+                                    <small>Iban</small>
+                                    <p>ITC9865767835788359735987</p>
+                                </div>
+                                <div class="card_holder space">
+                                    <div class="left">
+                                        <small>Card Holder</small>
+                                        <p>Mark Park</p>
+                                    </div>
+                                    <div class="right">
+                                        <small>Expires</small>
+                                        <p>07 2026</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                            <img src="../images/bg_card_1.jpg" alt="">
+                        </div>
+
+
+                        <div class="spacer"></div>
+
+
+                        <div class="your_count">
+                            <h2>Your piggy bank</h2>
+                            <br>
+                            <p>€ 195,39</p>
+                        </div>
+
+
+                        <div class="tranistions">
+                            <h2>Tranision</h2>
+                            <br>
+                            <div class="transition">
+                                <div class="left">
+                                    <div class="block">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <h3>Accreditation</h3>
+                                    </div>
+                                    <div class="block">
+                                        <small>30/06/2025</small>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p>€ 45,00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="transition">
+                                <div class="left">
+                                    <div class="block">
+                                        <i class="fa-solid fa-caret-down"></i>
+                                        <h3>Withdrawal</h3>
+                                    </div>
+                                    <div class="block">
+                                        <small>30/06/2025</small>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <p>€ 12,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="transfer_money" class="tabcontent">
+                        <h2>Transferm Money</h2>
+                        <p>You can send coins to your friends and share challenges
+                        </p>
+                        <br>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- Link esterno per collegare il Framework Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Link esterno per collegare il Framework ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Link esterno per collegare il Framework Lenis -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+    <script>
+        const lenis = new Lenis({
+            duration: 2.2,
+        });
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+        gsap.registerPlugin(ScrollTrigger);
+        let mm = gsap.matchMedia();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+
+        $(document).ready(function () {
+            $(".action").on("click", function () {
+                $(".menu").toggleClass("active");
+            });
+        });
+
+
+
+
+
+
+
+
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+
+            if (cityName === "Statistics") {
+                createRadarChart(); // chiama solo qui la creazione
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
